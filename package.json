@@ -1,0 +1,29 @@
+{
+  "name": "server-sandbox",
+  "version": "1.0.0",
+  "description": "mock server for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjf-covello/node-server-sandbox.git"
+  },
+  "keywords": [
+    "test",
+    "sandbox",
+    "node",
+    "server"
+  ],
+  "author": "Jorge J F Covello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjf-covello/node-server-sandbox/issues"
+  },
+  "homepage": "https://github.com/jjf-covello/node-server-sandbox#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
