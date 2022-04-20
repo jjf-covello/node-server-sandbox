@@ -9,6 +9,7 @@ const logInput = async(req, resp) => {
     console.log('params request recieved: ', req.params)
     resp.status(500).json({
         msg: 'Mocking Test',
+        bodyRequested: req.body
     })
 }
 router.get(process.env.SANDBOX_URL,[
